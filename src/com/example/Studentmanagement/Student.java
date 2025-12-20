@@ -5,12 +5,14 @@ public class Student {
     private String name;
     private int age;
     private double grade;
+    private String lastname;
 
-    public Student(int id, String name, int age, double grade) {
+    public Student(int id, String name, int age, double grade,String lastname) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.grade = grade;
+        this.lastname = lastname;
     }
 
     // Getters
