@@ -8,7 +8,7 @@ public class studentmanagementSystem {
 
     public void addStudent(Student student) {
         students.add(student);
-        System.out.println("Student added successfully.");
+        System.out.println("Student added.");
     }
 
     public void viewStudents() {
